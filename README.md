@@ -55,3 +55,11 @@ Meh.
 ----
 
 © Paul Annesley, 2011, [MIT license](http://www.opensource.org/licenses/mit-license.php)
+
+Rk...
+------
+```
+% curl -X DELETE 'http://localhost:8421/channels/test'
+% curl -X PUT 'http://localhost:8421/channels/test'
+% curl -v   --data "$(date)" 'http://localhost:8421/channels/test'
+```
